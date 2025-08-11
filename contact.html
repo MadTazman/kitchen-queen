@@ -8,7 +8,6 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-
   <nav class="navbar">
     <div class="logo">
       <img src="logomare.png" alt="Kitchen Queen Logo" class="logo-img" />
@@ -23,19 +22,42 @@
     <button class="hamburger" id="hamburger">&#9776;</button>
   </nav>
 
-  <section class="page-section reveal">
-    <h1>Contact Us</h1>
-    <form class="reveal">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
+  <main>
+    <section class="page-section reveal">
+      <h1>Contact Us</h1>
+      <div class="contact-flex">
+        <div class="contact-info">
+          <p>
+            <strong>Phone:</strong> <a href="tel:+1234567890">+1 234 567 890</a><br>
+            <strong>WhatsApp:</strong> <a href="https://wa.me/1234567890" target="_blank" rel="noopener">+1 234 567 890</a><br>
+            <strong>WhatsApp Reservations:</strong> <a href="https://wa.me/1987654321" target="_blank" rel="noopener">+1 987 654 321</a>
+          </p>
+          <p>
+            <strong>Email:</strong> <a href="mailto:info@kitchenqueen.com">info@kitchenqueen.com</a>
+          </p>
+          <p>
+            <strong>Address:</strong><br>
+            123 Main Street,<br>
+            Food City, FC 12345
+          </p>
+        </div>
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1114.66958066259!2d23.601040586376115!3d46.767119166011504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490d5e13fc2de3%3A0xce372616df24e8e8!2sKitchenQueen!5e1!3m2!1sro!2sro!4v1754939559342!5m2!1sro!2sro"
+            width="320"
+            height="220"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Kitchen Queen. All rights reserved.</p>
+    &copy; 2025 Kitchen Queen. All rights reserved.
   </footer>
-
 </body>
 </html>
